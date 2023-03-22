@@ -1,0 +1,60 @@
+body
+{
+    color: white;
+    
+}
+section
+{
+    height: 100vh !important;
+    position: relative;
+    inset: 0;
+}
+
+::selection
+{
+    background-color:#f5e095 ;
+    color: black;
+}
+input:focus , textarea:focus
+{
+    box-shadow: 0px 0px 10px #FFA441 !important ;
+    border: 1px solid #FFA441 !important;
+}
+
+textarea
+{
+    resize: none;
+}
+.colr
+{
+    border: 1px solid  rgb(255, 204, 153, 0.4);
+}
+
+
+.val-alert
+{
+    border-radius: 5px;
+    font-size: 14px;
+    background-color:#FFA441;
+    color: black;
+    margin-top: 5px;
+
+}
+
+button
+{
+    border: 1px solid  rgb(255, 204, 153, 0.4) !important ;
+    transition: all 0.5s ;
+}
+
+button:hover
+{
+    border: 1px solid  rgb(255, 204, 153, 1) !important ;
+    background-color: rgb(21, 17, 17) !important;
+
+}
+
+.table-striped td 
+{
+    color: white !important;
+}
